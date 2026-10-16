@@ -10,14 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lnkiai/m3e-canvas/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></a>
-  <a href="https://github.com/lnkiai/m3e-canvas/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=625B71&labelColor=1D1B20" /></a>
-  <a href="https://github.com/sponsors/lnkiai"><img alt="Sponsors" src="https://img.shields.io/github/sponsors/lnkiai?style=for-the-badge&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /></a>
-  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-625B71?style=for-the-badge&labelColor=1D1B20" /></a>
+  <a href="https://github.com/lnkiai/m3e-canvas/stargazers"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat-square&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></picture></a>
+  <a href="https://github.com/sponsors/lnkiai"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/github/sponsors/lnkiai?style=flat-square&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /><img alt="Sponsors" src="https://img.shields.io/github/sponsors/lnkiai?style=for-the-badge&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /></picture></a>
+  <a href="LICENSE"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/badge/license-MIT-625B71?style=flat-square&labelColor=1D1B20" /><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-625B71?style=for-the-badge&labelColor=1D1B20" /></picture></a>
   <br />
-  <a href="https://m3.material.io/"><img alt="Material 3 Expressive" src="https://img.shields.io/badge/Material_3-Expressive-6750A4?style=for-the-badge&logo=materialdesign&logoColor=white&labelColor=1D1B20" /></a>
-  <a href="https://nextjs.org/"><img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-625B71?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=1D1B20" /></a>
-  <a href="https://react.dev/"><img alt="React 19" src="https://img.shields.io/badge/React-19-625B71?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=1D1B20" /></a>
+  <a href="https://m3.material.io/"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/badge/Material_3-Expressive-6750A4?style=flat-square&logo=materialdesign&logoColor=white&labelColor=1D1B20" /><img alt="Material 3 Expressive" src="https://img.shields.io/badge/Material_3-Expressive-6750A4?style=for-the-badge&logo=materialdesign&logoColor=white&labelColor=1D1B20" /></picture></a>
+  <a href="https://nextjs.org/"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/badge/Next.js-16-625B71?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=1D1B20" /><img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-625B71?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=1D1B20" /></picture></a>
+  <a href="https://react.dev/"><picture><source media="(max-width: 767px)" srcset="https://img.shields.io/badge/React-19-625B71?style=flat-square&logo=react&logoColor=61DAFB&labelColor=1D1B20" /><img alt="React 19" src="https://img.shields.io/badge/React-19-625B71?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=1D1B20" /></picture></a>
 </p>
 
 <p align="center">
@@ -28,7 +27,7 @@
 
 <p align="center"><img src="docs/readme/demo.gif" alt="Sketching the Pantry recipe app in M3E Canvas, tapping through its screens, copying the prompt, Claude Code building it in a terminal, and the finished app running on a phone" /></p>
 
-<p align="center"><sub>Sketch the screens, tap through the flow, copy the prompt, and let your AI coding tool build the app. (<a href="docs/readme/demo.mp4">mp4</a>)</sub></p>
+<p align="center">Sketch the screens, tap through the flow, copy the prompt, and let your AI coding tool build the app. (<a href="docs/readme/demo.mp4">mp4</a>)</p>
 
 M3E Canvas is a free, open-source sketchpad for app screens made of real Material 3 Expressive parts. It runs entirely in your browser: no account, no server, nothing to install. What you sketch becomes a precise prompt that any AI coding tool that takes one, such as Claude Code, Codex, Gemini CLI or Cursor, can turn into a working app.
 
@@ -36,47 +35,29 @@ M3E Canvas is a free, open-source sketchpad for app screens made of real Materia
 
 ## <img src="docs/readme/ui/icon-how.png" width="32" height="32" align="absmiddle" alt="" /> How it works
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><img src="docs/readme/step-1-sketch.png" alt="The parts panel beside a phone screen" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-2-preview.png" alt="A screen open in the tap-through preview" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-3-prompt.png" alt="The prompt panel next to a screen" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Sketch</b><br />Drag parts onto phone or desktop screens. They snap together and line up on a 4dp grid.</td>
-    <td valign="top"><b>Tap through</b><br />Link parts to screens and press Preview to try the flow, transitions included.</td>
-    <td valign="top"><b>Copy the prompt</b><br />The whole design becomes a short brief in your language. Paste it into your AI coding tool.</td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/how-narrow.png" />
+  <img src="docs/readme/cards/how-wide.png" alt="The three steps: building a screen from the parts panel, tapping through it in the preview, and copying the prompt" />
+</picture>
+
+1. **Sketch** — Drag parts onto phone or desktop screens. They snap together and line up on a 4dp grid.
+2. **Tap through** — Link parts to screens and press Preview to try the flow, transitions included.
+3. **Copy the prompt** — The whole design becomes a short brief in your language. Paste it into your AI coding tool.
 
 ## <img src="docs/readme/ui/icon-features.png" width="32" height="32" align="absmiddle" alt="" /> What's inside
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-parts.png" alt="A button selected on the canvas with its panel open" />
-      <h3>Real M3 Expressive parts</h3>
-      Buttons, FABs, bars, tabs, cards, lists, sheets, pickers, carousels, loading indicators and more, each with its own panel for text, style, size and what a tap does.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-flow.png" alt="Three linked phone screens with arrows between them" />
-      <h3>Screens and flow</h3>
-      Phone and desktop screens, screens that scroll, taps and swipes that open other screens with the transition you pick, and arrows that show the whole flow.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-theme.png" alt="The colors panel with the sketch switched to the Teal palette" />
-      <h3>Theme in one place</h3>
-      Color, shape, type and motion: seven palettes or your own seed color, light and dark, three contrast levels, corner styles, fonts and the expressive spring motion.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-ai.png" alt="The Ask an AI dialog with an idea typed in" />
-      <h3>Optional AI help</h3>
-      Bring your own key to draft a design or write notes for you, or copy an instruction for a coding agent that replies with a share link. Keys never leave your browser.
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/features-narrow.png" />
+  <img src="docs/readme/cards/features-wide.png" alt="Four features: a part's own panel, linked screens, the colors panel and the Ask an AI dialog" />
+</picture>
+
+<img src="docs/readme/ui/feature-parts.png" width="24" height="24" align="absmiddle" alt="" /> **Real M3 Expressive parts** — Buttons, FABs, bars, tabs, cards, lists, sheets, pickers, carousels, loading indicators and more, each with its own panel for text, style, size and what a tap does.
+
+<img src="docs/readme/ui/feature-flow.png" width="24" height="24" align="absmiddle" alt="" /> **Screens and flow** — Phone and desktop screens, screens that scroll, taps and swipes that open other screens with the transition you pick, and arrows that show the whole flow.
+
+<img src="docs/readme/ui/feature-theme.png" width="24" height="24" align="absmiddle" alt="" /> **Theme in one place** — Color, shape, type and motion: seven palettes or your own seed color, light and dark, three contrast levels, corner styles, fonts and the expressive spring motion.
+
+<img src="docs/readme/ui/feature-ai.png" width="24" height="24" align="absmiddle" alt="" /> **Optional AI help** — Bring your own key to draft a design or write notes for you, or copy an instruction for a coding agent that replies with a share link. Keys never leave your browser.
 
 <details>
 <summary><b>Everything it can do</b></summary>
