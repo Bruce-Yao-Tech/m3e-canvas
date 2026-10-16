@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://github.com/lnkiai/m3e-canvas/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></a>
-  <a href="https://github.com/lnkiai/m3e-canvas/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=625B71&labelColor=1D1B20" /></a>
   <a href="https://github.com/sponsors/lnkiai"><img alt="Sponsors" src="https://img.shields.io/github/sponsors/lnkiai?style=for-the-badge&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-625B71?style=for-the-badge&labelColor=1D1B20" /></a>
   <br />
@@ -36,47 +35,17 @@ M3E Canvas is a free, open-source sketchpad for app screens made of real Materia
 
 ## <img src="docs/readme/ui/icon-how.png" width="32" height="32" align="absmiddle" alt="" /> How it works
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><img src="docs/readme/step-1-sketch.png" alt="The parts panel beside a phone screen" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-2-preview.png" alt="A screen open in the tap-through preview" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-3-prompt.png" alt="The prompt panel next to a screen" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Sketch</b><br />Drag parts onto phone or desktop screens. They snap together and line up on a 4dp grid.</td>
-    <td valign="top"><b>Tap through</b><br />Link parts to screens and press Preview to try the flow, transitions included.</td>
-    <td valign="top"><b>Copy the prompt</b><br />The whole design becomes a short brief in your language. Paste it into your AI coding tool.</td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/how-narrow-en.png" />
+  <img src="docs/readme/cards/how-wide-en.png" alt="1. Sketch: Drag parts onto phone or desktop screens. They snap together and line up on a 4dp grid. 2. Tap through: Link parts to screens and press Preview to try the flow, transitions included. 3. Copy the prompt: The whole design becomes a short brief in your language. Paste it into your AI coding tool." />
+</picture>
 
 ## <img src="docs/readme/ui/icon-features.png" width="32" height="32" align="absmiddle" alt="" /> What's inside
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-parts.png" alt="A button selected on the canvas with its panel open" />
-      <h3>Real M3 Expressive parts</h3>
-      Buttons, FABs, bars, tabs, cards, lists, sheets, pickers, carousels, loading indicators and more, each with its own panel for text, style, size and what a tap does.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-flow.png" alt="Three linked phone screens with arrows between them" />
-      <h3>Screens and flow</h3>
-      Phone and desktop screens, screens that scroll, taps and swipes that open other screens with the transition you pick, and arrows that show the whole flow.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-theme.png" alt="The colors panel with the sketch switched to the Teal palette" />
-      <h3>Theme in one place</h3>
-      Color, shape, type and motion: seven palettes or your own seed color, light and dark, three contrast levels, corner styles, fonts and the expressive spring motion.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-ai.png" alt="The Ask an AI dialog with an idea typed in" />
-      <h3>Optional AI help</h3>
-      Bring your own key to draft a design or write notes for you, or copy an instruction for a coding agent that replies with a share link. Keys never leave your browser.
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/features-narrow-en.png" />
+  <img src="docs/readme/cards/features-wide-en.png" alt="Real M3 Expressive parts: Buttons, FABs, bars, tabs, cards, lists, sheets, pickers, carousels, loading indicators and more, each with its own panel for text, style, size and what a tap does. Screens and flow: Phone and desktop screens, screens that scroll, taps and swipes that open other screens with the transition you pick, and arrows that show the whole flow. Theme in one place: Color, shape, type and motion: seven palettes or your own seed color, light and dark, three contrast levels, corner styles, fonts and the expressive spring motion. Optional AI help: Bring your own key to draft a design or write notes for you, or copy an instruction for a coding agent that replies with a share link. Keys never leave your browser." />
+</picture>
 
 <details>
 <summary><b>Everything it can do</b></summary>

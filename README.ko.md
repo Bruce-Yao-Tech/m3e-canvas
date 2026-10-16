@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://github.com/lnkiai/m3e-canvas/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></a>
-  <a href="https://github.com/lnkiai/m3e-canvas/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=625B71&labelColor=1D1B20" /></a>
   <a href="https://github.com/sponsors/lnkiai"><img alt="Sponsors" src="https://img.shields.io/github/sponsors/lnkiai?style=for-the-badge&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-625B71?style=for-the-badge&labelColor=1D1B20" /></a>
   <br />
@@ -36,47 +35,17 @@ M3E Canvas는 진짜 Material 3 Expressive 부품으로 앱 화면을 그리는 
 
 ## <img src="docs/readme/ui/icon-how.png" width="32" height="32" align="absmiddle" alt="" /> 사용 방법
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><img src="docs/readme/step-1-sketch.png" alt="부품 패널과 휴대전화 화면" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-2-preview.png" alt="미리보기에서 연 화면" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-3-prompt.png" alt="화면 옆의 프롬프트 패널" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>스케치</b><br />부품을 휴대전화나 데스크톱 화면으로 드래그합니다. 부품끼리 붙고 4dp 그리드에 맞춰집니다.</td>
-    <td valign="top"><b>탭해 보기</b><br />부품을 화면에 연결하고 미리보기를 누르면 전환 효과까지 포함해 흐름을 시험할 수 있습니다.</td>
-    <td valign="top"><b>프롬프트 복사</b><br />디자인 전체가 선택한 언어의 짧은 지시문이 됩니다. AI 코딩 도구에 붙여 넣으면 됩니다.</td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/how-narrow-ko.png" />
+  <img src="docs/readme/cards/how-wide-ko.png" alt="1. 스케치: 부품을 휴대전화나 데스크톱 화면으로 드래그합니다. 부품끼리 붙고 4dp 그리드에 맞춰집니다. 2. 탭해 보기: 부품을 화면에 연결하고 미리보기를 누르면 전환 효과까지 포함해 흐름을 시험할 수 있습니다. 3. 프롬프트 복사: 디자인 전체가 선택한 언어의 짧은 지시문이 됩니다. AI 코딩 도구에 붙여 넣으면 됩니다." />
+</picture>
 
 ## <img src="docs/readme/ui/icon-features.png" width="32" height="32" align="absmiddle" alt="" /> 주요 기능
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-parts.png" alt="캔버스에서 버튼을 선택하고 패널을 연 모습" />
-      <h3>진짜 M3 Expressive 부품</h3>
-      버튼, FAB, 바, 탭, 카드, 목록, 시트, 선택기, 캐러셀, 로딩 표시기 등. 부품마다 텍스트, 스타일, 크기, 탭했을 때의 동작을 정하는 패널이 있습니다.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-flow.png" alt="화살표로 연결된 휴대전화 화면 세 개" />
-      <h3>화면과 흐름</h3>
-      휴대전화와 데스크톱 화면, 스크롤되는 긴 화면, 탭이나 스와이프로 원하는 전환 효과와 함께 다른 화면 열기. 전체 흐름은 화살표로 보입니다.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-theme.png" alt="색상 패널에서 스케치를 Teal 팔레트로 바꾼 모습" />
-      <h3>테마를 한곳에서</h3>
-      색상, 모양, 글꼴, 모션. 7가지 팔레트 또는 나만의 기준 색상, 라이트와 다크, 3단계 대비, 모서리 스타일, 글꼴, 익스프레시브 스프링 모션.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-ai.png" alt="아이디어를 입력한 'AI에게 맡기기' 대화상자" />
-      <h3>선택형 AI 도움</h3>
-      자신의 키로 디자인 초안이나 설명을 쓰게 하거나, 코딩 에이전트용 지시를 복사해 공유 링크로 답을 받을 수 있습니다. 키는 브라우저 밖으로 나가지 않습니다.
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/features-narrow-ko.png" />
+  <img src="docs/readme/cards/features-wide-ko.png" alt="진짜 M3 Expressive 부품: 버튼, FAB, 바, 탭, 카드, 목록, 시트, 선택기, 캐러셀, 로딩 표시기 등. 부품마다 텍스트, 스타일, 크기, 탭했을 때의 동작을 정하는 패널이 있습니다. 화면과 흐름: 휴대전화와 데스크톱 화면, 스크롤되는 긴 화면, 탭이나 스와이프로 원하는 전환 효과와 함께 다른 화면 열기. 전체 흐름은 화살표로 보입니다. 테마를 한곳에서: 색상, 모양, 글꼴, 모션. 7가지 팔레트 또는 나만의 기준 색상, 라이트와 다크, 3단계 대비, 모서리 스타일, 글꼴, 익스프레시브 스프링 모션. 선택형 AI 도움: 자신의 키로 디자인 초안이나 설명을 쓰게 하거나, 코딩 에이전트용 지시를 복사해 공유 링크로 답을 받을 수 있습니다. 키는 브라우저 밖으로 나가지 않습니다." />
+</picture>
 
 <details>
 <summary><b>할 수 있는 모든 것</b></summary>

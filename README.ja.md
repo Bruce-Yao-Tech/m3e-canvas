@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://github.com/lnkiai/m3e-canvas/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></a>
-  <a href="https://github.com/lnkiai/m3e-canvas/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=625B71&labelColor=1D1B20" /></a>
   <a href="https://github.com/sponsors/lnkiai"><img alt="Sponsors" src="https://img.shields.io/github/sponsors/lnkiai?style=for-the-badge&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-625B71?style=for-the-badge&labelColor=1D1B20" /></a>
   <br />
@@ -36,47 +35,17 @@ M3E Canvas は、本物の Material 3 Expressive の部品でアプリの画面�
 
 ## <img src="docs/readme/ui/icon-how.png" width="32" height="32" align="absmiddle" alt="" /> 使い方
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><img src="docs/readme/step-1-sketch.png" alt="部品パネルとスマホ画面" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-2-preview.png" alt="タップして確かめるプレビュー" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-3-prompt.png" alt="画面の横に開いたプロンプトパネル" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>組む</b><br />部品をスマホやデスクトップの画面にドラッグします。部品同士はくっつき、4dp グリッドにそろいます。</td>
-    <td valign="top"><b>タップして確かめる</b><br />部品に移動先の画面をつなぎ、プレビューで遷移ごと動きを試せます。</td>
-    <td valign="top"><b>プロンプトをコピー</b><br />デザイン全体が、選んだ言語の短い指示文になります。AI コーディングツールに貼るだけです。</td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/how-narrow-ja.png" />
+  <img src="docs/readme/cards/how-wide-ja.png" alt="1. 組む: 部品をスマホやデスクトップの画面にドラッグします。部品同士はくっつき、4dp グリッドにそろいます。 2. タップして確かめる: 部品に移動先の画面をつなぎ、プレビューで遷移ごと動きを試せます。 3. プロンプトをコピー: デザイン全体が、選んだ言語の短い指示文になります。AI コーディングツールに貼るだけです。" />
+</picture>
 
 ## <img src="docs/readme/ui/icon-features.png" width="32" height="32" align="absmiddle" alt="" /> 主な機能
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-parts.png" alt="キャンバスでボタンを選び、そのパネルを開いたところ" />
-      <h3>本物の M3 Expressive 部品</h3>
-      ボタン、FAB、バー、タブ、カード、リスト、シート、ピッカー、カルーセル、ローディングなど。部品ごとにテキスト、スタイル、サイズ、タップしたときの動きを決めるパネルがあります。
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-flow.png" alt="矢印でつながった 3 つのスマホ画面" />
-      <h3>画面と遷移</h3>
-      スマホとデスクトップの画面、スクロールする長い画面、タップやスワイプで好きな遷移を付けて開く画面。全体の流れは矢印で見えます。
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-theme.png" alt="カラーパネルでスケッチを Teal に切り替えたところ" />
-      <h3>テーマを 1 か所で</h3>
-      カラー、シェイプ、タイポグラフィ、モーション。7 種のパレットか自分のベース色、ライトとダーク、3 段階のコントラスト、角丸、フォント、エクスプレッシブなばねの動き。
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-ai.png" alt="アイデアを入力した「AI に頼む」ダイアログ" />
-      <h3>AI の手助け（任意）</h3>
-      自分のキーでデザインの下書きや説明文を書かせたり、コーディングエージェント向けの指示をコピーして共有リンクで返してもらったりできます。キーはブラウザの外に出ません。
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/features-narrow-ja.png" />
+  <img src="docs/readme/cards/features-wide-ja.png" alt="本物の M3 Expressive 部品: ボタン、FAB、バー、タブ、カード、リスト、シート、ピッカー、カルーセル、ローディングなど。部品ごとにテキスト、スタイル、サイズ、タップしたときの動きを決めるパネルがあります。 画面と遷移: スマホとデスクトップの画面、スクロールする長い画面、タップやスワイプで好きな遷移を付けて開く画面。全体の流れは矢印で見えます。 テーマを 1 か所で: カラー、シェイプ、タイポグラフィ、モーション。7 種のパレットか自分のベース色、ライトとダーク、3 段階のコントラスト、角丸、フォント、エクスプレッシブなばねの動き。 AI の手助け（任意）: 自分のキーでデザインの下書きや説明文を書かせたり、コーディングエージェント向けの指示をコピーして共有リンクで返してもらったりできます。キーはブラウザの外に出ません。" />
+</picture>
 
 <details>
 <summary><b>できることの一覧</b></summary>

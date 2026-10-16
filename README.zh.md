@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://github.com/lnkiai/m3e-canvas/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=6750A4&labelColor=1D1B20" /></a>
-  <a href="https://github.com/lnkiai/m3e-canvas/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/lnkiai/m3e-canvas?style=for-the-badge&logo=github&logoColor=white&color=625B71&labelColor=1D1B20" /></a>
   <a href="https://github.com/sponsors/lnkiai"><img alt="Sponsors" src="https://img.shields.io/github/sponsors/lnkiai?style=for-the-badge&logo=githubsponsors&logoColor=white&color=7D5260&labelColor=1D1B20" /></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-625B71?style=for-the-badge&labelColor=1D1B20" /></a>
   <br />
@@ -36,47 +35,17 @@ M3E Canvas 是一个免费、开源的应用界面草图工具，用的是真正
 
 ## <img src="docs/readme/ui/icon-how.png" width="32" height="32" align="absmiddle" alt="" /> 使用方式
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><img src="docs/readme/step-1-sketch.png" alt="组件面板和一个手机屏幕" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-2-preview.png" alt="在预览中打开的屏幕" /></td>
-    <td width="33%" valign="top"><img src="docs/readme/step-3-prompt.png" alt="屏幕旁边的提示词面板" /></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>拼装</b><br />把组件拖到手机或桌面屏幕上。组件会彼此吸附，并对齐到 4dp 网格。</td>
-    <td valign="top"><b>点一点试试</b><br />把组件连到目标屏幕，按下预览即可连同过渡动画一起试用流程。</td>
-    <td valign="top"><b>复制提示词</b><br />整个设计会变成你所选语言的简短说明。粘贴到 AI 编程工具里即可。</td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/how-narrow-zh.png" />
+  <img src="docs/readme/cards/how-wide-zh.png" alt="1. 拼装: 把组件拖到手机或桌面屏幕上。组件会彼此吸附，并对齐到 4dp 网格。 2. 点一点试试: 把组件连到目标屏幕，按下预览即可连同过渡动画一起试用流程。 3. 复制提示词: 整个设计会变成你所选语言的简短说明。粘贴到 AI 编程工具里即可。" />
+</picture>
 
 ## <img src="docs/readme/ui/icon-features.png" width="32" height="32" align="absmiddle" alt="" /> 主要功能
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-parts.png" alt="在画布上选中一个按钮并打开它的面板" />
-      <h3>真正的 M3 Expressive 组件</h3>
-      按钮、FAB、各种栏、标签页、卡片、列表、底部面板、选择器、轮播、加载指示器等等。每个组件都有自己的面板，可设置文字、样式、尺寸以及点击后的行为。
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-flow.png" alt="用箭头相连的三个手机屏幕" />
-      <h3>屏幕与流程</h3>
-      手机和桌面屏幕、可以滚动的长屏幕、通过点击或滑动以你选择的过渡打开其他屏幕，整个流程用箭头一目了然。
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-theme.png" alt="配色面板，草图已切换为 Teal 配色" />
-      <h3>一处调整主题</h3>
-      配色、形状、字体和动效：七套配色或你自己的基准色、浅色与深色、三档对比度、圆角风格、字体，以及富有表现力的弹簧动效。
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/readme/feature-ai.png" alt="输入了想法的“让 AI 来画”对话框" />
-      <h3>可选的 AI 辅助</h3>
-      使用自己的密钥让 AI 起草设计或撰写说明，或者复制给编程代理的指令，让它以分享链接回复。密钥不会离开你的浏览器。
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 767px)" srcset="docs/readme/cards/features-narrow-zh.png" />
+  <img src="docs/readme/cards/features-wide-zh.png" alt="真正的 M3 Expressive 组件: 按钮、FAB、各种栏、标签页、卡片、列表、底部面板、选择器、轮播、加载指示器等等。每个组件都有自己的面板，可设置文字、样式、尺寸以及点击后的行为。 屏幕与流程: 手机和桌面屏幕、可以滚动的长屏幕、通过点击或滑动以你选择的过渡打开其他屏幕，整个流程用箭头一目了然。 一处调整主题: 配色、形状、字体和动效：七套配色或你自己的基准色、浅色与深色、三档对比度、圆角风格、字体，以及富有表现力的弹簧动效。 可选的 AI 辅助: 使用自己的密钥让 AI 起草设计或撰写说明，或者复制给编程代理的指令，让它以分享链接回复。密钥不会离开你的浏览器。" />
+</picture>
 
 <details>
 <summary><b>全部功能</b></summary>
